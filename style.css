@@ -135,6 +135,27 @@ section {
     padding: 0 20px;
 }
 
+.hero-img-container {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    transition: var(--transition);
+}
+
+.profile-pic:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
 .hero h1 {
     font-size: 4.5rem;
     margin-bottom: 10px;
